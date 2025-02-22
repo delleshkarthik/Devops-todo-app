@@ -20,26 +20,11 @@
 
 ## ⚡ Project Setup  
 
-### 1️⃣ Clone the Repository  
+### 1️⃣ Clone the Repository or create a git repository of your project
 ```bash
 git clone https://github.com/yourusername/devops-todo.git
 cd devops-todo
 ```
+
 ![png](https://github.com/delleshkarthik/todo/blob/main/62bd9629-1740-4933-bbb1-7ddda48bcb6a.jpg?raw=true)
-
-![png](https://github.com/missating/nodejs-todo/blob/master/todo.png?raw=true 'web todo')
-
-<br>
-
-<p> How to run the app locally: </p>
-
-<ol>
-<li> Run <code> npm install </code> to install all needed dependencies </li>
-
-<li> Then start the server using <code> node index.js </code> </li>
-
-<li> Navigate to your browser <code> http://localhost:3000/ </code> to view the app </li>
-</ol>
-
-<p> I wrote a blog post on how to build this app, you can check it out <a href="https://medium.com/@atingenkay/creating-a-todo-app-with-node-js-express-8fa51f39b16f" target="_blank">Here</a>
 
