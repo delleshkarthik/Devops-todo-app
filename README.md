@@ -44,7 +44,8 @@ cd devops-todo
      - **Allow HTTP (80), HTTPS (443), and SSH (22)** for access.  
 5. Click **Launch** and **create a new key pair** (or use an existing one).  
 6. **Download the key (`.pem` file) and store it safely**.  
-7. Click **Launch Instances** to start the server.  
+7. Click **Launch Instances** to start the server.
+8. Select the instance and then connect you will notice a new ubuntu terminal .
 
 ### **3️⃣ Connect to EC2 via SSH**  
 Once your EC2 instance is running:  
