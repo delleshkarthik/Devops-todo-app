@@ -1,48 +1,43 @@
-//dependencies required for the app
 var express = require("express");
 var bodyParser = require("body-parser");
 var app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
-//render css files
 app.use(express.static("public"));
 
-//placeholders for added task
-var task = ["buy socks", "practise with nodejs"];
-//placeholders for removed task
-var complete = ["finish jquery"];
+// Placeholder patient lists
+var patients = ["John Doe - Fever", "Jane Smith - Surgery"];
+var discharged = ["Mark Wilson - Recovered"];
 
-//post route for adding new task 
-app.post("/addtask", function(req, res) {
-    var newTask = req.body.newtask;
-    //add the new task from the post route
-    task.push(newTask);
+// Route to add new patient
+app.post("/addpatient", function(req, res) {
+    var newPatient = req.body.newpatient;
+    patients.push(newPatient);
     res.redirect("/");
 });
 
-app.post("/removetask", function(req, res) {
-    var completeTask = req.body.check;
-    //check for the "typeof" the different completed task, then add into the complete task
-    if (typeof completeTask === "string") {
-        complete.push(completeTask);
-        //check if the completed task already exits in the task when checked, then remove it
-        task.splice(task.indexOf(completeTask), 1);
-    } else if (typeof completeTask === "object") {
-        for (var i = 0; i < completeTask.length; i++) {
-            complete.push(completeTask[i]);
-            task.splice(task.indexOf(completeTask[i]), 1);
+// Route to discharge a patient
+app.post("/discharge", function(req, res) {
+    var dischargedPatient = req.body.check;
+    if (typeof dischargedPatient === "string") {
+        discharged.push(dischargedPatient);
+        patients.splice(patients.indexOf(dischargedPatient), 1);
+    } else if (typeof dischargedPatient === "object") {
+        for (var i = 0; i < dischargedPatient.length; i++) {
+            discharged.push(dischargedPatient[i]);
+            patients.splice(patients.indexOf(dischargedPatient[i]), 1);
         }
     }
     res.redirect("/");
 });
 
-//render the ejs and display added task, completed task
+// Route to render patient list
 app.get("/", function(req, res) {
-    res.render("index", { task: task, complete: complete });
+    res.render("index", { patients: patients, discharged: discharged });
 });
 
-//set app to listen on 0.0.0.0:8000
+// Server setup
 app.listen(8000, "0.0.0.0", function() {
-    console.log("server is running on http://0.0.0.0:8000");
+    console.log("Hospital Management System running on http://0.0.0.0:8000");
 });
