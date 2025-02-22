@@ -56,3 +56,12 @@ cd devops-todo
 4.setup jenkins.
 
 ![png](https://github.com/delleshkarthik/Devops-todo-app/blob/main/48eac0fb-0c9b-4c77-8250-e2d8b4cf8b6a.jpg?raw=true)
+
+### 4️⃣ Deploy your app**  
+1. push the repo into **Docker**.  
+2. Build the jenkins project *Your project name*.  
+3. Run your build commands in Ubuntu.  
+4. goto to publicips:8000
+5. now it is integrated with ***CICD*** pipeline.    
+7. Any changes on git will be appeared on publicips:8000.
+
