@@ -25,7 +25,14 @@
 git clone https://github.com/yourusername/devops-todo.git
 cd devops-todo
 ```
-## ⚡ Project Setup  
+### Accessing Amazon EC2 Dashboard**
+1. Go to the **AWS Management Console**: [AWS Console](https://aws.amazon.com/console/)
+2. Log in with your **AWS credentials**.
+3. Navigate to the **EC2 Dashboard**:  
+   - Click on **Services** → Search for **EC2** and select it.  
+   - You should now see the **EC2 Instances page**.
+
+![png](https://github.com/delleshkarthik/todo/blob/main/62bd9629-1740-4933-bbb1-7ddda48bcb6a.jpg?raw=true)
 
 ### **2️⃣ Launching an EC2 Instance**  
 1. Click **Launch Instance**.  
@@ -44,5 +51,4 @@ Once your EC2 instance is running:
 ```bash
 ssh -i your-key.pem ubuntu@your-ec2-public-ip
 ```
-![png](https://github.com/delleshkarthik/todo/blob/main/62bd9629-1740-4933-bbb1-7ddda48bcb6a.jpg?raw=true)
 
