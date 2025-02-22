@@ -46,6 +46,7 @@ cd devops-todo
 6. **Download the key (`.pem` file) and store it safely**.  
 7. Click **Launch Instances** to start the server.
 8. Select the instance and then connect you will notice a new ubuntu terminal .
+![png](https://github.com/delleshkarthik/Devops-todo-app/blob/main/e9e5e686-2326-4c99-a919-954fb534eb1a.jpg?raw=true)
 
 ### **3️⃣ Connect to EC2 via SSH**  
 Once your EC2 instance is running:  
