@@ -11,12 +11,12 @@
 
 
 ## 🛠️ Tech Stack  
-- **Frontend**: React / Vue / Angular *(whichever you used)*  
-- **Backend**: Node.js / Python / FastAPI *(your backend choice)*  
-- **Database**: PostgreSQL / MongoDB *(your DB choice)*  
+- **Frontend**: Javascript*  
+- **Backend**: Node.js / Python / FastAPI *  
+- **Database**: PostgreSQL / MongoDB *  
 - **CI/CD**: **Jenkins + GitHub Actions (SSH Key Integrations)**  
 - **Deployment**: **AWS EC2**  
-- **Containerization**: Docker (if used)  
+- **Containerization**: Docker 
 
 ## ⚡ Project Setup  
 
