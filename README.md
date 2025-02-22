@@ -55,4 +55,4 @@ cd devops-todo
 3.goto your publicips:8080 for jenkins.
 4.setup jenkins.
 
-
+![png](https://github.com/delleshkarthik/Devops-todo-app/blob/main/48eac0fb-0c9b-4c77-8250-e2d8b4cf8b6a.jpg?raw=true)
