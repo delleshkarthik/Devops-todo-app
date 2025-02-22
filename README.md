@@ -50,9 +50,9 @@ cd devops-todo
 ![png](https://github.com/delleshkarthik/Devops-todo-app/blob/main/46a739df-344e-4d8c-99a6-0947d1893187.jpg?raw=true)
 
 ### **3️⃣ Connect to EC2 via SSH and in**  
-1.Once your EC2 instance is running execute the build commands
-2.setup git ssh keys 
-3.goto your publicips:8080 for jenkins 
-4.setup jenkins
+1.Once your EC2 instance is running execute the build commands.
+2.setup git ssh keys .
+3.goto your publicips:8080 for jenkins .
+4.setup jenkins.
 
 
