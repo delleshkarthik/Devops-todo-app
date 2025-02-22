@@ -1,6 +1,14 @@
-# nodejs-todo
+# DevOps To-Do Application
 
-<h2> A simple To Do List application built with Node.js and Express</h2>
+<h2>A simple To-Do application deployed using AWS EC2, Jenkins, and GitHub SSH key integrations to automate the CI/CD pipeline.</h2>
+
+## 🚀 Features  
+✅ CRUD operations for task management  
+✅ **CI/CD pipeline** automated using Jenkins  
+✅ **GitHub SSH keys** for secure deployment  
+✅ **AWS EC2** instance for hosting the application  
+✅ **Dockerized environment** for consistent deployment 
+
 
 <p> Nodejs application that let's you add and complete task on a single page, storing both new and completed task in a different array. This appllication makes use of: </p>
 
