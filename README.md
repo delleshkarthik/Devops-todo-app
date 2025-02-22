@@ -10,14 +10,21 @@
 ✅ **Dockerized environment** for consistent deployment 
 
 
-<p> Nodejs application that let's you add and complete task on a single page, storing both new and completed task in a different array. This appllication makes use of: </p>
+## 🛠️ Tech Stack  
+- **Frontend**: React / Vue / Angular *(whichever you used)*  
+- **Backend**: Node.js / Python / FastAPI *(your backend choice)*  
+- **Database**: PostgreSQL / MongoDB *(your DB choice)*  
+- **CI/CD**: **Jenkins + GitHub Actions (SSH Key Integrations)**  
+- **Deployment**: **AWS EC2**  
+- **Containerization**: Docker (if used)  
 
-<ul>
-<li> EJS - A simple templating engine that lets you generate HTML markup with plain JS </li>
+## ⚡ Project Setup  
 
-<li> Body-parser - This extracts the entire body portion of an incoming request stream and exposes it on req.body </li>
-</ul>
-
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/devops-todo.git
+cd devops-todo
+```
 ![png](https://github.com/delleshkarthik/todo/blob/main/62bd9629-1740-4933-bbb1-7ddda48bcb6a.jpg?raw=true)
 
 ![png](https://github.com/missating/nodejs-todo/blob/master/todo.png?raw=true 'web todo')
